@@ -99,7 +99,7 @@ export class AuthService {
        };
     } catch (error) {
       console.error('Error in sending reset link:', error);  // Log any errors
-      throw error;  // Rethrow to show in the NestJS logs
+      throw error; 
     }
   }
 
